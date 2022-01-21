@@ -6,6 +6,7 @@ const Body = Matter.Body;
 const Render = Matter.Render;
 var dustbinObj,groundObject	
 var world;
+var paperImg;
 
 function preload(){
 	paperImg.loadImage("paper.png") 
